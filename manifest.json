@@ -9,7 +9,7 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/B15-Stock-Take/icons/CR1icon-192x192.png",
+      "src": "/B15-Stock-Take/icons/B15icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
