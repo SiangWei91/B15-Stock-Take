@@ -38,10 +38,10 @@ const products = [
     },
     {
         barcode: "50264",
-        name: "泰菜丸- VEGETABLE FISH BALL",
+        name: "VEGETABLE FISH BALL  泰菜丸",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "泰菜丸- VEGETABLE FISH BALL", packaging: "500G X 20P", itemCode: "50264" }
+            { type: "CTN", name: "VEGETABLE FISH BALL  泰菜丸", packaging: "500G X 20P", itemCode: "50264" }
         ],
         scanned: false
     },
@@ -56,19 +56,19 @@ const products = [
     },
     {
         barcode: "50266",
-        name: "PANDY FISH",
+        name: "PANDY FISH  熊猫鱼饼",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "PANDY FISH", packaging: "500G X 20P", itemCode: "50266" }
+            { type: "CTN", name: "PANDY FISH  熊猫鱼饼", packaging: "500G X 20P", itemCode: "50266" }
         ],
         scanned: false
     },
     {
         barcode: "62006",
-        name: "Four Colour Roll - 5pcs (950g)",
-        packaging: "5pcs x 15p",
+        name: "Four Colour Roll 四色卷",
+        packaging: "950g x 15p",
         skus: [
-            { type: "CTN", name: "Four Colour Roll - 5pcs (950g)", packaging: "5pcs x 15p", itemCode: "62006" }
+            { type: "CTN", name: "Four Colour Roll 四色卷", packaging: "950g x 15p", itemCode: "62006" }
         ],
         scanned: false
     },
@@ -83,19 +83,19 @@ const products = [
     },
     {
         barcode: "50268",
-        name: "CARTOON FISH",
+        name: "CARTOON FISH  可爱鱼",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "CARTOON FISH", packaging: "500G X 20P", itemCode: "50268" }
+            { type: "CTN", name: "CARTOON FISH  可爱鱼", packaging: "500G X 20P", itemCode: "50268" }
         ],
         scanned: false
     },
     {
-        barcode: "50284",
-        name: "CRAB FLAVOURED STICK FISH ROLL",
+        barcode: "50285",
+        name: "CRAB FLAVOURED STICK FISH ROLL  竹蟹棒",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "CRAB FLAVOURED STICK FISH ROLL", packaging: "500G X 20P", itemCode: "50284" }
+            { type: "CTN", name: "CRAB FLAVOURED STICK FISH ROLL  竹蟹棒", packaging: "500G X 20P", itemCode: "50284" }
         ],
         scanned: false
     },
@@ -110,19 +110,19 @@ const products = [
     },
     {
         barcode: "50270",
-        name: "FRUITY FISH CAKE",
+        name: "FRUITY FISH CAKE  果香鱼饼",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "FRUITY FISH CAKE", packaging: "500G X 20P", itemCode: "50270" }
+            { type: "CTN", name: "FRUITY FISH CAKE  果香鱼饼", packaging: "500G X 20P", itemCode: "50270" }
         ],
         scanned: false
     },
     {
         barcode: "40676",
-        name: "Fish Bean Curd Roll",
-        packaging: "10pc X 10p",
+        name: "Fish Bean Curd Roll  炸豆皮卷",
+        packaging: "825g x 8pkt",
         skus: [
-            { type: "CTN", name: "Fish Bean Curd Roll", packaging: "10pc X 10p", itemCode: "40676" }
+            { type: "CTN", name: "Fish Bean Curd Roll  炸豆皮卷", packaging: "825g x 8pkt", itemCode: "40676" }
         ],
         scanned: false
     },
@@ -162,15 +162,7 @@ const products = [
         ],
         scanned: false
     },
-    {
-        barcode: "60000",
-        name: "GOLDEN Spring Roll",
-        packaging: "10pc x 20p",
-        skus: [
-            { type: "CTN", name: "GOLDEN Spring Roll", packaging: "10pc x 20p", itemCode: "60000" }
-        ],
-        scanned: false
-    },
+
     {
         barcode: "40138",
         name: "GOLDEN BAR FISH CAKE   金条",
@@ -317,34 +309,34 @@ const products = [
     },
     {
         barcode: "26101.1",
-        name: "皇帝蟹丸 FLAVOURED KING CRAB BALL",
+        name: "FLAVOURED KING CRAB BALL  皇帝蟹丸",
         packaging: "11KG",
         skus: [
-            { type: "CTN", name: "皇帝蟹丸 FLAVOURED KING CRAB BALL", packaging: "11KG", itemCode: "26101.1" }
+            { type: "CTN", name: "FLAVOURED KING CRAB BALL  皇帝蟹丸", packaging: "11KG", itemCode: "26101.1" }
         ],
         scanned: false
     },
     {
         barcode: "40628.2",
-        name: "蟹味柳 KANIMI CHUNK",
+        name: "KANIMI CHUNK  蟹味柳",
         packaging: "7KG",
         skus: [
-            { type: "CTN", name: "蟹味柳 KANIMI CHUNK", packaging: "7KG", itemCode: "40628.2" }
+            { type: "CTN", name: "KANIMI CHUNK  蟹味柳", packaging: "7KG", itemCode: "40628.2" }
         ],
         scanned: false
     },
     {
         barcode: "10903.2",
-        name: "苏东丸 CUTTLEFISH BALL",
+        name: "CUTTLEFISH BALL  苏东丸",
         packaging: "11KG",
         skus: [
-            { type: "CTN", name: "苏东丸 CUTTLEFISH BALL", packaging: "11KG", itemCode: "10903.2" }
+            { type: "CTN", name: "CUTTLEFISH BALL  苏东丸", packaging: "11KG", itemCode: "10903.2" }
         ],
         scanned: false
     },
     {
         barcode: "40441.1",
-            name: "豆香片(7kg)SOY FISH PILLOW",
+            name: "SOY FISH PILLOW  豆香片",
             packaging: "7kg x 1pkt",
             skus: [
                 { type: "CTN", name: "豆香片(7kg)SOY FISH PILLOW", packaging: "7kg x 1pkt", itemCode: "40441.1" }
@@ -353,19 +345,19 @@ const products = [
         },
         {
             barcode: "40108.3",
-            name: "切果片 SLICED FISH CAKE",
+            name: "SLICED FISH CAKE  切果片",
             packaging: "10KG",
             skus: [
-                { type: "CTN", name: "切果片 SLICED FISH CAKE", packaging: "10KG", itemCode: "40108.3" }
+                { type: "CTN", name: "SLICED FISH CAKE  切果片", packaging: "10KG", itemCode: "40108.3" }
             ],
             scanned: false
         },
         {
             barcode: "40648",
-            name: "彩虹鱼饼 Fish Cake",
+            name: "Fish Cake  彩虹鱼饼",
             packaging: "500g x 20pkts",
             skus: [
-                { type: "CTN", name: "彩虹鱼饼 Fish Cake", packaging: "500g x 20pkts", itemCode: "40648" }
+                { type: "CTN", name: "Fish Cake  彩虹鱼饼", packaging: "500g x 20pkts", itemCode: "40648" }
             ],
             scanned: false
         }
@@ -414,7 +406,7 @@ function createCustomAlert() {
         .alert-button {
             margin-top: 15px;
             padding: 8px 20px;
-            background: #4CAF50;
+            background: #64748b;
             color: white;
             border: none;
             border-radius: 4px;
