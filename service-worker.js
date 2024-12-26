@@ -1,4 +1,4 @@
-const CACHE_NAME = 'B15-Stock-Take-cache-v2.0';
+const CACHE_NAME = 'B15-Stock-Take-cache-v2.1';
 const urlsToCache = [
     '/B15-Stock-Take/',
     '/B15-Stock-Take/index.html',
