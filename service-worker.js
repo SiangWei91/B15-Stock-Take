@@ -4,7 +4,7 @@ const urlsToCache = [
     '/B15-Stock-Take/index.html',
     '/B15-Stock-Take/app.js',
     '/B15-Stock-Take/manifest.json',
-    '/B15-Stock-Take/icons/CR1icon-192x192.png',
+    '/B15-Stock-Take/icons/B15icon-192x192.png',
     '/B15-Stock-Take/icons/icon-512x512.png'
 ];
 
