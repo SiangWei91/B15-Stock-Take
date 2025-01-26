@@ -1,4 +1,4 @@
-const CACHE_NAME = 'B15-Stock-Take-cache-v2.6';
+const CACHE_NAME = 'B15-Stock-Take-cache-v2.7';
 const urlsToCache = [
     '/B15-Stock-Take/',
     '/B15-Stock-Take/index.html',
@@ -20,12 +20,18 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
-    fetch(event.request).catch(function() {
-      return caches.match(event.request);
+    caches.open(CACHE_NAME).then(function(cache) {
+      return cache.match(event.request).then(function(response) {
+        return response || fetch(event.request).then(function(networkResponse) {
+          // Clone response before caching
+          const responseToCache = networkResponse.clone();
+          cache.put(event.request, responseToCache);
+          return networkResponse;
+        });
+      });
     })
   );
 });
-
 self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
