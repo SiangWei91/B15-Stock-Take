@@ -129,9 +129,9 @@ const products = [
     {
         barcode: "60020",
         name: "Jumbo Fish Beancurd  海鲜大腐竹",
-        packaging: "10's x 26",
+        packaging: "10's x 30pkt",
         skus: [
-            { type: "CTN", name: "Jumbo Fish Beancurd  海鲜大腐竹", packaging: "10's x 26", itemCode: "60020" }
+            { type: "CTN", name: "Jumbo Fish Beancurd  海鲜大腐竹", packaging: "10's x 30pkt", itemCode: "60020" }
         ],
         scanned: false
     },
