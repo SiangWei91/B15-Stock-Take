@@ -307,57 +307,12 @@ const products = [
         ],
         scanned: false
     },
-    {
-        barcode: "26101.1",
-        name: "FLAVOURED KING CRAB BALL  皇帝蟹丸",
-        packaging: "11KG",
-        skus: [
-            { type: "CTN", name: "FLAVOURED KING CRAB BALL  皇帝蟹丸", packaging: "11KG", itemCode: "26101.1" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "40628.2",
-        name: "KANIMI CHUNK  蟹味柳",
-        packaging: "7KG",
-        skus: [
-            { type: "CTN", name: "KANIMI CHUNK  蟹味柳", packaging: "7KG", itemCode: "40628.2" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "10903.2",
-        name: "CUTTLEFISH BALL  苏东丸",
-        packaging: "11KG",
-        skus: [
-            { type: "CTN", name: "CUTTLEFISH BALL  苏东丸", packaging: "11KG", itemCode: "10903.2" }
-        ],
-        scanned: false
-    },
-    {
+        {
         barcode: "40441.1",
             name: "SOY FISH PILLOW  豆香片",
             packaging: "7kg x 1pkt",
             skus: [
                 { type: "CTN", name: "豆香片(7kg)SOY FISH PILLOW", packaging: "7kg x 1pkt", itemCode: "40441.1" }
-            ],
-            scanned: false
-        },
-        {
-            barcode: "40108.3",
-            name: "SLICED FISH CAKE  切果片",
-            packaging: "10KG",
-            skus: [
-                { type: "CTN", name: "SLICED FISH CAKE  切果片", packaging: "10KG", itemCode: "40108.3" }
-            ],
-            scanned: false
-        },
-        {
-            barcode: "40648",
-            name: "Fish Cake  彩虹鱼饼",
-            packaging: "500g x 20pkts",
-            skus: [
-                { type: "CTN", name: "Fish Cake  彩虹鱼饼", packaging: "500g x 20pkts", itemCode: "40648" }
             ],
             scanned: false
         }
