@@ -315,6 +315,15 @@ const products = [
                 { type: "CTN", name: "豆香片(7kg)SOY FISH PILLOW", packaging: "7kg x 1pkt", itemCode: "40441.1" }
             ],
             scanned: false
+        },
+        {
+        barcode: "40650",
+            name: "SHRIMP ROLL 虾仁卷 320g",
+            packaging: "320g x 28pkt",
+            skus: [
+                { type: "CTN", name: "虾仁卷 SHRIMP ROLL", packaging: "320g x 28pkt", itemCode: "40650" }
+            ],
+            scanned: false
         }
     ];
 let currentProduct = null;
