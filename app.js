@@ -28,15 +28,6 @@ const products = [
         scanned: false
     },
     {
-        barcode: "50200",
-        name: "SHRIMP BOMB 虾蕾",
-        packaging: "250g x 40t",
-        skus: [
-            { type: "CTN", name: "SHRIMP BOMB 虾蕾", packaging: "250g x 40t", itemCode: "50200" }
-        ],
-        scanned: false
-    },
-    {
         barcode: "50264",
         name: "VEGETABLE FISH BALL 泰菜丸",
         packaging: "500G X 20P",
