@@ -2,64 +2,55 @@
 const products = [
     {
         barcode: "40610",
-        name: "BREADED CRAB CLAW   香脆蟹钳",
+        name: "BREADED CRAB CLAW 香脆蟹钳",
         packaging: "300g x 20T",
         skus: [
-            { type: "CTN", name: "BREADED CRAB CLAW   香脆蟹钳", packaging: "300g x 20T", itemCode: "40610" }
+            { type: "CTN", name: "BREADED CRAB CLAW 香脆蟹钳", packaging: "300g x 20T", itemCode: "40610" }
         ],
         scanned: false
     },
     {
         barcode: "40600",
-        name: "IMITATION CRAB CLAW   人造蟹钳",
+        name: "IMITATION CRAB CLAW 人造蟹钳",
         packaging: "250g x 30t",
         skus: [
-            { type: "CTN", name: "IMITATION CRAB CLAW   人造蟹钳", packaging: "250g x 30t", itemCode: "40600" }
+            { type: "CTN", name: "IMITATION CRAB CLAW 人造蟹钳", packaging: "250g x 30t", itemCode: "40600" }
         ],
         scanned: false
     },
     {
         barcode: "40662",
-        name: "IMITATION CRAB BITE   人造蟹粒",
+        name: "IMITATION CRAB BITE 人造蟹粒",
         packaging: "1kg x 10p",
         skus: [
-            { type: "CTN", name: "IMITATION CRAB BITE   人造蟹粒", packaging: "1kg x 10p", itemCode: "40662" }
+            { type: "CTN", name: "IMITATION CRAB BITE 人造蟹粒", packaging: "1kg x 10p", itemCode: "40662" }
         ],
         scanned: false
     },
     {
         barcode: "50200",
-        name: "SHRIMP BOMB   虾蕾",
+        name: "SHRIMP BOMB 虾蕾",
         packaging: "250g x 40t",
         skus: [
-            { type: "CTN", name: "SHRIMP BOMB   虾蕾", packaging: "250g x 40t", itemCode: "50200" }
+            { type: "CTN", name: "SHRIMP BOMB 虾蕾", packaging: "250g x 40t", itemCode: "50200" }
         ],
         scanned: false
     },
     {
         barcode: "50264",
-        name: "VEGETABLE FISH BALL  泰菜丸",
+        name: "VEGETABLE FISH BALL 泰菜丸",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "VEGETABLE FISH BALL  泰菜丸", packaging: "500G X 20P", itemCode: "50264" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50278",
-        name: "ZUZU FISH CAKE   卡通鱼饼",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "ZUZU FISH CAKE   卡通鱼饼", packaging: "500G X 20P", itemCode: "50278" }
+            { type: "CTN", name: "VEGETABLE FISH BALL 泰菜丸", packaging: "500G X 20P", itemCode: "50264" }
         ],
         scanned: false
     },
     {
         barcode: "50266",
-        name: "PANDY FISH  熊猫鱼饼",
+        name: "PANDY FISH 熊猫鱼饼",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "PANDY FISH  熊猫鱼饼", packaging: "500G X 20P", itemCode: "50266" }
+            { type: "CTN", name: "PANDY FISH 熊猫鱼饼", packaging: "500G X 20P", itemCode: "50266" }
         ],
         scanned: false
     },
@@ -73,65 +64,20 @@ const products = [
         scanned: false
     },
     {
-        barcode: "50272",
-        name: "MIXED - PENGUIN STYLE   企鹅",
-        packaging: "500g x 20p",
-        skus: [
-            { type: "CTN", name: "MIXED - PENGUIN STYLE   企鹅", packaging: "500g x 20p", itemCode: "50272" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50268",
-        name: "CARTOON FISH  可爱鱼",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "CARTOON FISH  可爱鱼", packaging: "500G X 20P", itemCode: "50268" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50285",
-        name: "CRAB FLAVOURED STICK FISH ROLL  竹蟹棒",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "CRAB FLAVOURED STICK FISH ROLL  竹蟹棒", packaging: "500G X 20P", itemCode: "50284" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50282",
-        name: "KANI MAKI   棒棒卷",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "KANI MAKI   棒棒卷", packaging: "500G X 20P", itemCode: "50282" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50270",
-        name: "FRUITY FISH CAKE  果香鱼饼",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "FRUITY FISH CAKE  果香鱼饼", packaging: "500G X 20P", itemCode: "50270" }
-        ],
-        scanned: false
-    },
-    {
         barcode: "40676",
-        name: "Fish Bean Curd Roll  炸豆皮卷",
+        name: "Fish Bean Curd Roll 炸豆皮卷",
         packaging: "825g x 8pkt",
         skus: [
-            { type: "CTN", name: "Fish Bean Curd Roll  炸豆皮卷", packaging: "825g x 8pkt", itemCode: "40676" }
+            { type: "CTN", name: "Fish Bean Curd Roll 炸豆皮卷", packaging: "825g x 8pkt", itemCode: "40676" }
         ],
         scanned: false
     },
     {
         barcode: "60020",
-        name: "Jumbo Fish Beancurd  海鲜大腐竹",
+        name: "Jumbo Fish Beancurd 海鲜大腐竹",
         packaging: "10's x 30pkt",
         skus: [
-            { type: "CTN", name: "Jumbo Fish Beancurd  海鲜大腐竹", packaging: "10's x 30pkt", itemCode: "60020" }
+            { type: "CTN", name: "Jumbo Fish Beancurd 海鲜大腐竹", packaging: "10's x 30pkt", itemCode: "60020" }
         ],
         scanned: false
     },
@@ -145,120 +91,101 @@ const products = [
         scanned: false
     },
     {
-        barcode: "40640",
-        name: "SUTCHI FISH FILLET   生鱼片",
-        packaging: "7kg",
-        skus: [
-            { type: "CTN", name: "SUTCHI FISH FILLET   生鱼片", packaging: "7kg", itemCode: "40640" }
-        ],
-        scanned: false
-    },
-    {
-        barcode: "50276",
-        name: "CREAM CHEESE FISH BUN   奶酪鱼包",
-        packaging: "500G x 20p",
-        skus: [
-            { type: "CTN", name: "CREAM CHEESE FISH BUN   奶酪鱼包", packaging: "500G x 20p", itemCode: "50276" }
-        ],
-        scanned: false
-    },
-
-    {
         barcode: "40138",
-        name: "GOLDEN BAR FISH CAKE   金条",
+        name: "GOLDEN BAR FISH CAKE 金条",
         packaging: "10's x 12pkt",
         skus: [
-            { type: "CTN", name: "GOLDEN BAR FISH CAKE   金条", packaging: "10's x 12pkt", itemCode: "40138" }
+            { type: "CTN", name: "GOLDEN BAR FISH CAKE 金条", packaging: "10's x 12pkt", itemCode: "40138" }
         ],
         scanned: false
     },
     {
         barcode: "40101",
-        name: "FISH CAKE ( L )   大鱼饼",
+        name: "FISH CAKE (L) 大鱼饼",
         packaging: "20's x 7pkt",
         skus: [
-            { type: "CTN", name: "FISH CAKE ( L )   大鱼饼", packaging: "20's x 7pkt", itemCode: "40101" }
+            { type: "CTN", name: "FISH CAKE (L) 大鱼饼", packaging: "20's x 7pkt", itemCode: "40101" }
         ],
         scanned: false
     },
     {
         barcode: "40102",
-        name: "FISH CAKE (M)   中鱼饼",
+        name: "FISH CAKE (M) 中鱼饼",
         packaging: "30's x 6pkt",
         skus: [
-            { type: "CTN", name: "FISH CAKE (M)   中鱼饼", packaging: "30's x 6pkt", itemCode: "40102" }
+            { type: "CTN", name: "FISH CAKE (M) 中鱼饼", packaging: "30's x 6pkt", itemCode: "40102" }
         ],
         scanned: false
     },
     {
         barcode: "40104",
-        name: "IMPROVED FISH CAKE   新大饼",
+        name: "IMPROVED FISH CAKE 新大饼",
         packaging: "20's x 6pkt",
         skus: [
-            { type: "CTN", name: "IMPROVED FISH CAKE   新大饼", packaging: "20's x 6pkt", itemCode: "40104" }
+            { type: "CTN", name: "IMPROVED FISH CAKE 新大饼", packaging: "20's x 6pkt", itemCode: "40104" }
         ],
         scanned: false
     },
     {
         barcode: "40123",
-        name: "H/MAKE VEG. FISH CAKE   手工菜饼",
+        name: "H/MAKE VEG. FISH CAKE 手工菜饼",
         packaging: "11kg/ctn",
         skus: [
-            { type: "CTN", name: "H/MAKE VEG. FISH CAKE   手工菜饼", packaging: "11kg/ctn", itemCode: "40123" }
+            { type: "CTN", name: "H/MAKE VEG. FISH CAKE 手工菜饼", packaging: "11kg/ctn", itemCode: "40123" }
         ],
         scanned: false
     },
     {
         barcode: "40120",
-        name: "SAIDOU FISH CAKE - ( L )   大西刀",
+        name: "SAIDOU FISH CAKE (L) 大西刀",
         packaging: "10's x 10pkt",
         skus: [
-            { type: "CTN", name: "SAIDOU FISH CAKE - ( L )   大西刀", packaging: "10's x 10pkt", itemCode: "40120" }
+            { type: "CTN", name: "SAIDOU FISH CAK - (L) 大西刀", packaging: "10's x 10pkt", itemCode: "40120" }
         ],
         scanned: false
     },
     {
         barcode: "40121",
-        name: "SAIDOU FISH CAKE - ( S )   小西刀",
+        name: "SAIDOU FISH CAKE-(S) 小西刀",
         packaging: "10's x 20pkt",
         skus: [
-            { type: "CTN", name: "SAIDOU FISH CAKE - ( S )   小西刀", packaging: "10's x 20pkt", itemCode: "40121" }
+            { type: "CTN", name: "SAIDOU FISH CAKE - (S) 小西刀", packaging: "10's x 20pkt", itemCode: "40121" }
         ],
         scanned: false
     },
     {
         barcode: "40113",
-        name: "ABALONE FISH CAKE   鲍鱼饼",
+        name: "ABALONE FISH CAKE 鲍鱼饼",
         packaging: "30's x 6pkt",
         skus: [
-            { type: "CTN", name: "ABALONE FISH CAKE   鲍鱼饼", packaging: "30's x 6pkt", itemCode: "40113" }
+            { type: "CTN", name: "ABALONE FISH CAKE 鲍鱼饼", packaging: "30's x 6pkt", itemCode: "40113" }
         ],
         scanned: false
     },
     {
         barcode: "40133",
-        name: "SAI DOU FRIED FISH BALL   西刀炸丸",
+        name: "SAI DOU FRIED FISH BALL 西刀炸丸",
         packaging: "30's x 8pkt",
         skus: [
-            { type: "CTN", name: "SAI DOU FRIED FISH BALL   西刀炸丸", packaging: "30's x 8pkt", itemCode: "40133" }
+            { type: "CTN", name: "SAI DOU FRIED FISH BALL 西刀炸丸", packaging: "30's x 8pkt", itemCode: "40133" }
         ],
         scanned: false
     },
     {
         barcode: "40139",
-        name: "IMPROVED FISH CAKE (100G)   特大饼",
+        name: "IMPROVED FISH CAKE (100G) 特大饼",
         packaging: "20's x 6pkt",
         skus: [
-            { type: "CTN", name: "IMPROVED FISH CAKE (100G)   特大饼", packaging: "20's x 6pkt", itemCode: "40139" }
+            { type: "CTN", name: "IMPROVED FISH CAKE (100G) 特大饼", packaging: "20's x 6pkt", itemCode: "40139" }
         ],
         scanned: false
     },
     {
         barcode: "40117",
-        name: "FISH CAKE (L) - BLACK   黑大饼",
+        name: "FISH CAKE (L) - BLACK 黑大饼",
         packaging: "20's x 7pkt",
         skus: [
-            { type: "CTN", name: "FISH CAKE (L) - BLACK   黑大饼", packaging: "20's x 7pkt", itemCode: "40117" }
+            { type: "CTN", name: "FISH CAKE (L) - BLACK 黑大饼", packaging: "20's x 7pkt", itemCode: "40117" }
         ],
         scanned: false
     },
@@ -267,16 +194,16 @@ const products = [
         name: "VP GOLDEN BAR   (VP)金条",
         packaging: "10's x 12pkt",
         skus: [
-            { type: "CTN", name: "VP GOLDEN BAR   (VP)金条", packaging: "10's x 12pkt", itemCode: "40706" }
+            { type: "CTN", name: "VP GOLDEN BAR (VP)金条", packaging: "10's x 12pkt", itemCode: "40706" }
         ],
         scanned: false
     },
     {
         barcode: "40110",
-        name: "ROUND FISH CAKE    圆饼",
+        name: "ROUND FISH CAKE 圆饼",
         packaging: "30's x 6pkt",
         skus: [
-            { type: "CTN", name: "ROUND FISH CAKE    圆饼", packaging: "30's x 6pkt", itemCode: "40110" }
+            { type: "CTN", name: "ROUND FISH CAKE 圆饼", packaging: "30's x 6pkt", itemCode: "40110" }
         ],
         scanned: false
     },
