@@ -235,6 +235,15 @@ const products = [
             scanned: false
         },
         {
+        barcode: "50270",
+            name: "FRUITY FISH CAKE  果香鱼饼",
+            packaging: "500g x 20p",
+            skus: [
+                { type: "CTN", name: "FRUITY FISH CAKE  果香鱼饼", packaging: "500g x 20p", itemCode: "50270" }
+            ],
+            scanned: false
+        },
+        {
         barcode: "40650",
             name: "SHRIMP ROLL 虾仁卷 320g",
             packaging: "320g x 28pkt",
