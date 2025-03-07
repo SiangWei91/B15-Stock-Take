@@ -28,15 +28,6 @@ const products = [
         scanned: false
     },
     {
-        barcode: "50264",
-        name: "VEGETABLE FISH BALL 泰菜丸",
-        packaging: "500G X 20P",
-        skus: [
-            { type: "CTN", name: "VEGETABLE FISH BALL 泰菜丸", packaging: "500G X 20P", itemCode: "50264" }
-        ],
-        scanned: false
-    },
-    {
         barcode: "50266",
         name: "PANDY FISH 熊猫鱼饼",
         packaging: "500G X 20P",
