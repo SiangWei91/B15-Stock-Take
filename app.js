@@ -761,7 +761,7 @@ function getPendingSubmissions() {
 async function submitToGoogleSheet() {
     const counterSelect = document.getElementById('counterSelect');
     const counter = counterSelect.value; // This will be the name from the dropdown
-    const LOCATION = 'CR3A';
+    const LOCATION = 'B15';
     
     if (!counter) {
         showCustomAlert('请选择盘点人员！Please choose the staff for inventory count!');
