@@ -26,6 +26,8 @@ body {
 
 .page.active {
     display: block;
+    position: relative; /* Establish a stacking context */
+    z-index: 1;       /* Ensure it's below the overlay and side panel */
 }
 
 .header {
