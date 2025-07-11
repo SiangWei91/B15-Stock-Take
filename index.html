@@ -9,13 +9,21 @@
     <title>B15 Stock Take</title>
     <style>
         * { box-sizing: border-box; }
+
+html {
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll from off-screen elements */
+}
+
 body { 
     margin: 0;
-    padding: 10px;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f5f7fa;
-    padding-bottom: 50px;
-    color: #2c3e50;
+    padding: 10px; 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    background: #f5f7fa; 
+    padding-bottom: 50px; 
+    color: #2c3e50; 
+    min-height: 100%; /* Ensure body at least fills viewport height */
+    position: relative; /* Ensure it can be a positioning context if needed */
 }
 
 .page {
@@ -26,8 +34,8 @@ body {
 
 .page.active {
     display: block;
-    position: relative; /* Establish a stacking context */
-    z-index: 1;       /* Ensure it's below the overlay and side panel */
+    position: relative; 
+    z-index: 1;       
 }
 
 .header {
