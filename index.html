@@ -9,21 +9,13 @@
     <title>B15 Stock Take</title>
     <style>
         * { box-sizing: border-box; }
-
-html {
-    height: 100%;
-    overflow-x: hidden; /* Prevent horizontal scroll from off-screen elements */
-}
-
 body { 
     margin: 0;
-    padding: 10px; 
-    font-family: 'Segoe UI', Arial, sans-serif; 
-    background: #f5f7fa; 
-    padding-bottom: 50px; 
-    color: #2c3e50; 
-    min-height: 100%; /* Ensure body at least fills viewport height */
-    position: relative; /* Ensure it can be a positioning context if needed */
+    padding: 10px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7fa;
+    padding-bottom: 50px;
+    color: #2c3e50;
 }
 
 .page {
@@ -34,8 +26,6 @@ body {
 
 .page.active {
     display: block;
-    position: relative; 
-    z-index: 1;       
 }
 
 .header {
@@ -52,12 +42,14 @@ body {
     margin-bottom: 10px;
     color: white;
 }
+
 #progressText {
     color: white;  /* Makes the text white */
     font-size: 0.9rem;  /* Optional: adjust size for better visibility */
     margin-top: 5px;  /* Optional: adds some spacing from the progress bar */
     display: block;  /* Ensures the text is on its own line */
 }
+
 .progress {
     height: 20px;
     background: #edf2f7;
@@ -393,7 +385,7 @@ body {
     transform: scale(0.98);
 }
 
-* Side Panel Styles */
+/* Side Panel Styles */
 .side-panel {
     height: 100%;
     width: 250px; /* Or your desired width */
