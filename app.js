@@ -28,11 +28,11 @@ const products = [
         scanned: false
     },
     {
-        barcode: "50266",
-        name: "PANDY FISH 熊猫鱼饼",
+        barcode: "40690",
+        name: "FLAVOURED CRAB MEAT CAKE 蟹味鱼饼",
         packaging: "500G X 20P",
         skus: [
-            { type: "CTN", name: "PANDY FISH 熊猫鱼饼", packaging: "500G X 20P", itemCode: "50266" }
+            { type: "CTN", name: "FLAVOURED CRAB MEAT CAKE 蟹味鱼饼", packaging: "500G X 20P", itemCode: "40690" }
         ],
         scanned: false
     },
@@ -217,20 +217,20 @@ const products = [
         scanned: false
     },
         {
-        barcode: "40441.1",
-            name: "SOY FISH PILLOW  豆香片",
-            packaging: "7kg x 1pkt",
+        barcode: "28032",
+            name: "PREMIUM CHEESE FISH TOFU 顶级芝士鱼豆腐",
+            packaging: "200g x 25pkt",
             skus: [
-                { type: "CTN", name: "豆香片(7kg)SOY FISH PILLOW", packaging: "7kg x 1pkt", itemCode: "40441.1" }
+                { type: "CTN", name: "PREMIUM CHEESE FISH TOFU 顶级芝士鱼豆腐", packaging: "200g x 25pkt", itemCode: "28032" }
             ],
             scanned: false
         },
         {
-        barcode: "50270",
-            name: "FRUITY FISH CAKE  果香鱼饼",
+        barcode: "28023",
+            name: "FISH PUFFY 鱼芙",
             packaging: "500g x 20p",
             skus: [
-                { type: "CTN", name: "FRUITY FISH CAKE  果香鱼饼", packaging: "500g x 20p", itemCode: "50270" }
+                { type: "CTN", name: "FISH PUFFY 鱼芙", packaging: "500g x 20p", itemCode: "28023" }
             ],
             scanned: false
         },
@@ -242,7 +242,79 @@ const products = [
                 { type: "CTN", name: "虾仁卷 SHRIMP ROLL", packaging: "320g x 28pkt", itemCode: "40650" }
             ],
             scanned: false
-        }
+        },
+  {
+    barcode: "28042",
+    name: "芝士鱼豆腐 CHEESE FISH TOFU 200g",
+    packaging: "200g x 40pkt",
+    skus: [
+      { type: "CTN", name: "芝士鱼豆腐 CHEESE FISH TOFU", packaging: "200g x 40pkt", itemCode: "28042" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "28004",
+    name: "甜心鱼豆腐 SWEET HEART FISH TOFU 50's",
+    packaging: "50's x 12pkt",
+    skus: [
+      { type: "CTN", name: "甜心鱼豆腐 SWEET HEART FISH TOFU", packaging: "50's x 12pkt", itemCode: "28004" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "29000",
+    name: "鱼蛋卷 FISH EGG ROLL 200g",
+    packaging: "200g x 40pkt",
+    skus: [
+      { type: "CTN", name: "鱼蛋卷 FISH EGG ROLL", packaging: "200g x 40pkt", itemCode: "29000" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "40668",
+    name: "海鲜粒 SEAFOOD BALL 500g",
+    packaging: "500g x 20pkt",
+    skus: [
+      { type: "CTN", name: "海鲜粒 SEAFOOD BALL", packaging: "500g x 20pkt", itemCode: "40668" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "28034",
+    name: "(菜) 海鲜豆腐 SEAFOOD TOFU WITH VEGETABLE",
+    packaging: "1kg x 10pkt",
+    skus: [
+      { type: "CTN", name: "(菜) 海鲜豆腐 SEAFOOD TOFU WITH VEGETABLE", packaging: "1kg x 10pkt", itemCode: "28034" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "40648",
+    name: "彩虹鱼饼 Fish Cake 500g",
+    packaging: "500g x 20pkt",
+    skus: [
+      { type: "CTN", name: "彩虹鱼饼 Fish Cake", packaging: "500g x 20pkt", itemCode: "40648" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "26114",
+    name: "芝士皇帝蟹味丸 CHEESE FLAVOURED KING CRAB BALL",
+    packaging: "250g x 40pkt",
+    skus: [
+      { type: "CTN", name: "芝士皇帝蟹味丸 CHEESE FLAVOURED KING CRAB BALL", packaging: "250g x 40pkt", itemCode: "26114" }
+    ],
+    scanned: false
+  },
+  {
+    barcode: "26112",
+    name: "皇帝蟹粒 FLAVOURED KING CRAB BITE",
+    packaging: "250g x 40pkt",
+    skus: [
+      { type: "CTN", name: "皇帝蟹粒 FLAVOURED KING CRAB BITE", packaging: "250g x 40pkt", itemCode: "26112" }
+    ],
+    scanned: false
+  }
     ];
 let currentProduct = null;
 let scanRecords = [];
