@@ -311,7 +311,7 @@ const products = [
     name: "过年鱼饺 FISH DUMPLING",
     packaging: "20's x 20tray",
     skus: [
-      { type: "CTN", name: "过年鱼饺 FISH DUMPLING", packaging: "20's x 20tray", itemCode: "10120" }
+      { type: "CTN", name: "过年鱼饺 FISH DUMPLING", packaging: "20's x 20tray", itemCode: "10100" }
     ],
     scanned: false
   },
@@ -320,7 +320,7 @@ const products = [
     name: "鱼饺 FISH DUMPLING",
     packaging: "10's x 60tray",
     skus: [
-      { type: "CTN", name: "鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110" }
+      { type: "CTN", name: "鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110.1" }
     ],
     scanned: false
   },
@@ -329,7 +329,7 @@ const products = [
     name: "结冰鱼饺 FISH DUMPLING",
     packaging: "10's x 60tray",
     skus: [
-      { type: "CTN", name: "结冰鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110" }
+      { type: "CTN", name: "结冰鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110.2" }
     ],
     scanned: false
   },
