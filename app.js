@@ -306,6 +306,33 @@ const products = [
     ],
     scanned: false
   },
+     {
+    barcode: "10100",
+    name: "鱼饺 FISH DUMPLING",
+    packaging: "20's x 20tray",
+    skus: [
+      { type: "CTN", name: "鱼饺 FISH DUMPLING", packaging: "20's x 20tray", itemCode: "10120" }
+    ],
+    scanned: false
+  },
+     {
+    barcode: "10110.1",
+    name: "鱼饺 FISH DUMPLING",
+    packaging: "10's x 60tray",
+    skus: [
+      { type: "CTN", name: "鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110" }
+    ],
+    scanned: false
+  },
+     {
+    barcode: "10110.2",
+    name: "鱼饺 FISH DUMPLING",
+    packaging: "10's x 60tray",
+    skus: [
+      { type: "CTN", name: "鱼饺 FISH DUMPLING", packaging: "10's x 60tray", itemCode: "10110" }
+    ],
+    scanned: false
+  },
   {
     barcode: "26117",
     name: "皇帝蟹粒 FLAVOURED KING CRAB BITE",
