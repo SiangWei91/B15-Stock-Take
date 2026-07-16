@@ -1118,7 +1118,7 @@ async function fetchUsersFromSupabase() {
     return [];
   }
 }
-*/
+
 
 // Populate dropdown with users
 async function populateUserDropdown() {
